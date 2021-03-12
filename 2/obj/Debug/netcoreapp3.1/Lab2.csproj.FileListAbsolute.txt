@@ -1,0 +1,13 @@
+D:\Учёба\ИСП\2\ConsoleApp1\bin\Debug\netcoreapp3.1\Lab2.exe
+D:\Учёба\ИСП\2\ConsoleApp1\bin\Debug\netcoreapp3.1\Lab2.deps.json
+D:\Учёба\ИСП\2\ConsoleApp1\bin\Debug\netcoreapp3.1\Lab2.runtimeconfig.json
+D:\Учёба\ИСП\2\ConsoleApp1\bin\Debug\netcoreapp3.1\Lab2.runtimeconfig.dev.json
+D:\Учёба\ИСП\2\ConsoleApp1\bin\Debug\netcoreapp3.1\Lab2.dll
+D:\Учёба\ИСП\2\ConsoleApp1\bin\Debug\netcoreapp3.1\Lab2.pdb
+D:\Учёба\ИСП\2\ConsoleApp1\obj\Debug\netcoreapp3.1\Lab2.AssemblyInfoInputs.cache
+D:\Учёба\ИСП\2\ConsoleApp1\obj\Debug\netcoreapp3.1\Lab2.AssemblyInfo.cs
+D:\Учёба\ИСП\2\ConsoleApp1\obj\Debug\netcoreapp3.1\Lab2.csproj.CoreCompileInputs.cache
+D:\Учёба\ИСП\2\ConsoleApp1\obj\Debug\netcoreapp3.1\Lab2.dll
+D:\Учёба\ИСП\2\ConsoleApp1\obj\Debug\netcoreapp3.1\Lab2.pdb
+D:\Учёба\ИСП\2\ConsoleApp1\obj\Debug\netcoreapp3.1\Lab2.genruntimeconfig.cache
+D:\Учёба\ИСП\2\ConsoleApp1\obj\Debug\netcoreapp3.1\Lab2.csprojAssemblyReference.cache
