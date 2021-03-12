@@ -23,6 +23,5 @@ namespace Lab2
             }
             return sum;
         }
-
     }
 }
