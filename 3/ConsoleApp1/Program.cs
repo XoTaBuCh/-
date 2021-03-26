@@ -369,7 +369,7 @@ namespace Project
             return new Human(fullName, identifier, isMale, dateOfBirth, mother, father);
         }
 
-        static Human FindHuman(string identifier)
+        public static Human FindHuman(string identifier)
         {
             for (int i = 0; i < humans.Count; i++)
             {
