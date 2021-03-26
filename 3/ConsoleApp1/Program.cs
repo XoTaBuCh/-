@@ -273,7 +273,7 @@ namespace Project
             {
                 Console.WriteLine("Enter year of birth");
                 year = Convert.ToInt32(Console.ReadLine());
-                if (year > 2021|| year < 0)
+                if (year > 2021 || year < 0)
                 {
                     Console.WriteLine("\nWrong format");
                 }
