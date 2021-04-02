@@ -1,0 +1,13 @@
+D:\Учёба\ИСП\4\2\Calculating\bin\Debug\netcoreapp3.1\Calculating.exe
+D:\Учёба\ИСП\4\2\Calculating\bin\Debug\netcoreapp3.1\Calculating.deps.json
+D:\Учёба\ИСП\4\2\Calculating\bin\Debug\netcoreapp3.1\Calculating.runtimeconfig.json
+D:\Учёба\ИСП\4\2\Calculating\bin\Debug\netcoreapp3.1\Calculating.runtimeconfig.dev.json
+D:\Учёба\ИСП\4\2\Calculating\bin\Debug\netcoreapp3.1\Calculating.dll
+D:\Учёба\ИСП\4\2\Calculating\bin\Debug\netcoreapp3.1\Calculating.pdb
+D:\Учёба\ИСП\4\2\Calculating\obj\Debug\netcoreapp3.1\Calculating.csprojAssemblyReference.cache
+D:\Учёба\ИСП\4\2\Calculating\obj\Debug\netcoreapp3.1\Calculating.AssemblyInfoInputs.cache
+D:\Учёба\ИСП\4\2\Calculating\obj\Debug\netcoreapp3.1\Calculating.AssemblyInfo.cs
+D:\Учёба\ИСП\4\2\Calculating\obj\Debug\netcoreapp3.1\Calculating.csproj.CoreCompileInputs.cache
+D:\Учёба\ИСП\4\2\Calculating\obj\Debug\netcoreapp3.1\Calculating.dll
+D:\Учёба\ИСП\4\2\Calculating\obj\Debug\netcoreapp3.1\Calculating.pdb
+D:\Учёба\ИСП\4\2\Calculating\obj\Debug\netcoreapp3.1\Calculating.genruntimeconfig.cache

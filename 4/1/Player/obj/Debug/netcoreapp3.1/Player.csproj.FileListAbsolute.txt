@@ -1,0 +1,13 @@
+D:\Учёба\ИСП\4\1\Player\bin\Debug\netcoreapp3.1\Player.exe
+D:\Учёба\ИСП\4\1\Player\bin\Debug\netcoreapp3.1\Player.deps.json
+D:\Учёба\ИСП\4\1\Player\bin\Debug\netcoreapp3.1\Player.runtimeconfig.json
+D:\Учёба\ИСП\4\1\Player\bin\Debug\netcoreapp3.1\Player.runtimeconfig.dev.json
+D:\Учёба\ИСП\4\1\Player\bin\Debug\netcoreapp3.1\Player.dll
+D:\Учёба\ИСП\4\1\Player\bin\Debug\netcoreapp3.1\Player.pdb
+D:\Учёба\ИСП\4\1\Player\obj\Debug\netcoreapp3.1\Player.csprojAssemblyReference.cache
+D:\Учёба\ИСП\4\1\Player\obj\Debug\netcoreapp3.1\Player.AssemblyInfoInputs.cache
+D:\Учёба\ИСП\4\1\Player\obj\Debug\netcoreapp3.1\Player.AssemblyInfo.cs
+D:\Учёба\ИСП\4\1\Player\obj\Debug\netcoreapp3.1\Player.csproj.CoreCompileInputs.cache
+D:\Учёба\ИСП\4\1\Player\obj\Debug\netcoreapp3.1\Player.dll
+D:\Учёба\ИСП\4\1\Player\obj\Debug\netcoreapp3.1\Player.pdb
+D:\Учёба\ИСП\4\1\Player\obj\Debug\netcoreapp3.1\Player.genruntimeconfig.cache
