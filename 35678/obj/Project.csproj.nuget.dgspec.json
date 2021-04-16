@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Учёба\\ИСП\\3\\ConsoleApp1\\Project.csproj": {}
+    "D:\\Учёба\\ИСП\\35678\\Project.csproj": {}
   },
   "projects": {
-    "D:\\Учёба\\ИСП\\3\\ConsoleApp1\\Project.csproj": {
+    "D:\\Учёба\\ИСП\\35678\\Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Учёба\\ИСП\\3\\ConsoleApp1\\Project.csproj",
+        "projectUniqueName": "D:\\Учёба\\ИСП\\35678\\Project.csproj",
         "projectName": "Project",
-        "projectPath": "D:\\Учёба\\ИСП\\3\\ConsoleApp1\\Project.csproj",
+        "projectPath": "D:\\Учёба\\ИСП\\35678\\Project.csproj",
         "packagesPath": "C:\\Users\\Fujik\\.nuget\\packages\\",
-        "outputPath": "D:\\Учёба\\ИСП\\3\\ConsoleApp1\\obj\\",
+        "outputPath": "D:\\Учёба\\ИСП\\35678\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fujik\\AppData\\Roaming\\NuGet\\NuGet.Config",

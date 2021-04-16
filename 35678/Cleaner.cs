@@ -2,7 +2,7 @@
 
 namespace Project
 {
-    class Cleaner : Worker
+    class Cleaner : Worker, IWork
     {
         public int CleaningRooms;
         public Cleaner() : base()
@@ -21,9 +21,10 @@ namespace Project
         {
             return string.Format("{0}, id={1}, salary={2}$, cleaned rooms={3}", FullName, Identifier, Info.Salary, CleaningRooms);
         }
-        public void UpgradeCleaning(int roomsInDay)
+        void IWork.Working(int roomsInDay)
         {
-            CleaningRooms = roomsInDay;
+            CleaningRooms += roomsInDay;
+            Console.WriteLine("Уборщик {1} поработал, почистив {0} комнат", roomsInDay, FullName);
         }
         public override void Work(int days)
         {

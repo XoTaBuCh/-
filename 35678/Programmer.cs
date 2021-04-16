@@ -2,7 +2,7 @@
 
 namespace Project
 {
-    class Programmer : Worker
+    class Programmer : Worker, IWork
     {
         public int Projects;
         public Programmer() : base()
@@ -21,9 +21,10 @@ namespace Project
         {
             return string.Format("{0}, id={1}, salary={2}$, projects={3}", FullName, Identifier, Info.Salary, Projects);
         }
-        public void NewProjects(int projects)
+        void IWork.Working(int projects)
         {
-            Projects = projects;
+            Projects += projects;
+            Console.WriteLine("Программист {1} поработал, написав {0} проектов", projects, FullName);
         }
         public override void Work(int days)
         {
