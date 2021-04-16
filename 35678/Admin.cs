@@ -21,7 +21,7 @@ namespace Project
         {
             return string.Format("{0}, id={1}, salary={2}$, subordinates={3}", FullName, Identifier, Info.Salary, Subordinates);
         }
-        void IWork.Working(int people)
+        public void Working(int people)
         {
             Subordinates += people;
             Console.WriteLine("Админа {1} поработал, управляя {0} людьми", Subordinates, FullName);

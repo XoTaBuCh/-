@@ -21,7 +21,7 @@ namespace Project
         {
             return string.Format("{0}, id={1}, salary={2}$, cleaned rooms={3}", FullName, Identifier, Info.Salary, CleaningRooms);
         }
-        void IWork.Working(int roomsInDay)
+        public void Working(int roomsInDay)
         {
             CleaningRooms += roomsInDay;
             Console.WriteLine("Уборщик {1} поработал, почистив {0} комнат", roomsInDay, FullName);
