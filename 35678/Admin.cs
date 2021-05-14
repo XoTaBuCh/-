@@ -26,10 +26,16 @@ namespace Project
             Subordinates += people;
             Console.WriteLine("Админа {1} поработал, управляя {0} людьми", Subordinates, FullName);
         }
+        public delegate void Messange(string mes);
+        public event Messange Notify;
         public override void Work(int days)
         {
+            if (days < 0)
+            {
+                throw new Exception("Количество дней не может быть меньше нуля.");
+            }
             Info.Salary *= Subordinates;
-            Console.WriteLine("Зарплата для админа {1} изменилась на {0}$", Subordinates, FullName);
+            Notify?.Invoke($"Зарплата для админа {FullName} изменилась на {Subordinates}$");
             base.Work(days);
         }
     }

@@ -26,10 +26,21 @@ namespace Project
             Projects += projects;
             Console.WriteLine("Программист {1} поработал, написав {0} проектов", projects, FullName);
         }
+        public delegate void Messange(string mes);
+        Messange _del;
+        public void RegisterHandler(Messange del)
+        {
+            _del = del;
+        }
         public override void Work(int days)
         {
+            if (days < 0)
+            {
+                throw new Exception("Количество дней не может быть меньше нуля.");
+            }
             Info.Salary *= Projects * 10;
-            Console.WriteLine("Зарплата для прогера {1} изменилась на {0}$", Projects * 10, FullName);
+
+            _del($"Зарплата для прогера {FullName} изменилась на {Projects * 10}$");
             base.Work(days);
         }
     }

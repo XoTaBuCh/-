@@ -13,14 +13,30 @@ namespace Project
             ((IWork)man).Working(30);
             man.Work(5);
             Programmer woman = new Programmer("Worker2", "2");
+            woman.RegisterHandler(new Programmer.Messange(ShowMessage));
             woman.Work(5);
-            Worker newMan = new Admin("Worker3", "3");
+            Admin newMan = new Admin("Worker3", "3");
+            newMan.Notify += delegate (string mes)
+            {
+                Console.WriteLine(mes);
+            };
+            try
+            {
+                newMan.Work(-5);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine("Ошибка: " + ex.Message);
+            }
             newMan.Work(5);
             IWork newWoman = new Cleaner("Worker4", "4");
 
             
         }
-
+        private static void ShowMessage(string message)
+        {
+            Console.WriteLine(message);
+        }
         static Human ReadHuman(bool isSimpleAdd)
         {
             string fullName;

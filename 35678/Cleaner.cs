@@ -28,6 +28,11 @@ namespace Project
         }
         public override void Work(int days)
         {
+            if (days < 0)
+            {
+                throw new Exception("Количество дней не может быть меньше нуля.");
+            }
+
             Info.Salary *= CleaningRooms / 10;
             Console.WriteLine("Зарплата для уборщика {1} изменилась на {0}$", CleaningRooms / 10, FullName);
             base.Work(days);
